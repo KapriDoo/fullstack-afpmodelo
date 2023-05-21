@@ -211,6 +211,10 @@ export default {
   max-width: 15rem;
 }
 
+a.nav-link.active {
+  cursor: pointer;
+}
+
 @media (max-width: 576px) {
   .button-actions {
     font-size: 10px;
